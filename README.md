@@ -8,12 +8,12 @@ without surrounding XML.
 ![Peoplecode Section with Application Package subfolder](/content/ExtractedSections.png?raw=true "Peoplecode Section with Application Package")
 
 In order to add more sections edit psconstants.py
-# add section type to the EXTENSIONS dictionary. 'flds' key contains a list of tags that contain the content to be extracted.
-
-# INSTANCE_START_TAG, INSTANCE_END_TAG define section's starting and ending markers 
-   
-# NAME_MAP contains mapping of known sections and names of tags containing key fields. These are used to determine section id and a path.
++ add section type to the EXTENSIONS dictionary. 'flds' key contains a list of tags that contain the content to be extracted.
   
-# SQL_TYPES includes various types of SQL objects used by PeopleSoft.
-
-# CLASSES contains mapping of the value of OBJECTTYPE to the name of the type.
++ INSTANCE_START_TAG, INSTANCE_END_TAG define section's starting and ending markers 
+   
++ NAME_MAP contains mapping of known sections and names of tags containing key fields. These are used to determine section id and a path.
+  
++ SQL_TYPES includes various types of SQL objects used by PeopleSoft.
+  
++ CLASSES contains mapping of the value of OBJECTTYPE to the name of the type.
