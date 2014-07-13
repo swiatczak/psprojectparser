@@ -8,7 +8,7 @@ without surrounding XML.
 ![Peoplecode Section with Application Package subfolder](/content/ExtractedSections.png?raw=true "Peoplecode Section with Application Package")
 
 In order to add more sections edit psconstants.py
-+ add section type to the EXTENSIONS dictionary. 'flds' key contains a list of tags that contain the content to be extracted.
++ add section type to the EXTENSIONS dictionary. 'flds' key includes a list of tags that contain the data to be extracted.
   
 + INSTANCE_START_TAG, INSTANCE_END_TAG define section's starting and ending markers 
    
