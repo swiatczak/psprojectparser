@@ -17,3 +17,6 @@ In order to add more sections edit psconstants.py
 + SQL_TYPES includes various types of SQL objects used by PeopleSoft.
   
 + CLASSES contains mapping of the value of OBJECTTYPE to the name of the type.
+
+Note:
+To deal with reading PeopleSoft generated XML file and possible encoding issues - I used the answer(s) in http://stackoverflow.com/questions/491921/unicode-utf8-reading-and-writing-to-files-in-python
