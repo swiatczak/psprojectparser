@@ -19,4 +19,6 @@ In order to add more sections edit psconstants.py
 + CLASSES contains mapping of the value of OBJECTTYPE to the name of the type.
 
 Note:
-To deal with reading PeopleSoft generated XML file and possible encoding issues - I used the answer(s) in http://stackoverflow.com/questions/491921/unicode-utf8-reading-and-writing-to-files-in-python
+----
+* Coroutines and Generators - tutorials and presentations by David Beazley @ http://www.dabeaz.com
+* Dealing with reading PeopleSoft generated XML file and possible encoding issues - I used the answer(s) in http://stackoverflow.com/questions/491921/unicode-utf8-reading-and-writing-to-files-in-python
