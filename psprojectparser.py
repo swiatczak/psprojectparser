@@ -97,12 +97,16 @@ def saveSection(wrkFolder, ext):
     while True:
         section = (yield)
         if section:
-            filename = os.path.join(wrkFolder, '{}.{}'.format(section['path'], ext))
-            dirname = os.path.dirname(filename)
-            if not os.path.exists(dirname):
-                os.makedirs(dirname)
-            with open(filename, "w") as output:
-                output.write(section['content'])
+             # for section types not yet supported show info msg but do not save 
+             if 'path' in section:
+                filename = os.path.join(wrkFolder, '{}.{}'.format(section['path'], ext))
+                dirname = os.path.dirname(filename)
+                if not os.path.exists(dirname):
+                    os.makedirs(dirname)
+                with open(filename, "w") as output:
+                    output.write(section['content'])
+            else:
+                print 'path not defined for ', section['type'], ' check the constants '            
 
 # test
 if __name__ == "__main__":

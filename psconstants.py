@@ -47,7 +47,7 @@ NAME_MAP = {'ACM'     : ['szActivityName'],
             'MSDM'    : ['szMsgName','lVersion'],
             'OPRHM'   : ['szOperationname','szHandlername'],
             'OPRM'    : ['szOperationname','szDefaultversion'],
-            'OPRVM'   : ['szOperationname','szDefaultversion'],
+            'OPRVM'   : ['szOperationname','szVersionname'],
             'PBM'     : ['szPbmType'], #optimisation problem type - PSOPTPRBTYPE
             'PCM'     : ['eObjectID_0','szObjectValue_0','eObjectID_1','szObjectValue_1','eObjectID_2','szObjectValue_2','eObjectID_3','szObjectValue_3','eObjectID_4','szObjectValue_4','eObjectID_5','szObjectValue_5','eObjectID_6','szObjectValue_6'],
             'PDM'     : ['szPnlName'],
@@ -64,6 +64,7 @@ NAME_MAP = {'ACM'     : ['szActivityName'],
             'PSS844'  : ['szServerName'],
             'PST'     : ['szPrcsType','szOpsys','szDbType'],
             'QDM'     : ['szOprId', 'szQryName'],
+            'QUEM'    : ['szQueuename'], #Queue   
             'RCMTM'   : ['szPortalName', 'szPortalObjName'], #RC Menu ?
             'RCSCM'   : ['szPortalName', 'szPortalObjName', 'szServiceId', 'nInstanceId'], #RC Service content ?
             'RCSDM'   : ['szServiceId' , 'cServiceType'], #RC Service Definition
